@@ -202,6 +202,25 @@ For batch analysis, provide a CSV containing the 30 input features (`Time`, `V1`
 
 Developed as a machine learning portfolio project focused on financial fraud detection, imbalanced classification and explainable AI.
 
+## Model Evaluation Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Individual SHAP Explanation
+![SHAP Explanation](screenshots/shap_explanation.png)
+
+### Global SHAP Feature Importance
+![Global SHAP](screenshots/global_shap.png)
+
+### ROC Curve
+![ROC Curve](screenshots/roc_curve.png)
+
+### Precision-Recall Curve
+![Precision-Recall Curve](screenshots/precision_recall_curve.png)
+
+### Confusion Matrix
+![Confusion Matrix](screenshots/confusion_matrix.png)
 
 ## Model Evaluation Screenshots
 
