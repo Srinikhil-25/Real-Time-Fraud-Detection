@@ -1,0 +1,37 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Datasets and processed data
+data/
+
+# Model artifacts (keep only the final selected model)
+models/*.joblib
+!models/best_fraud_model_safe.joblib
+
+# Generated prediction data
+reports/models/final_test_predictions.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+# Generated prediction data
+reports/models/final_test_predictions.csv
